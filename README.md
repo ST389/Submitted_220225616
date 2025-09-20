@@ -26,40 +26,6 @@ pandas, numpy
 
 matplotlib, seaborn
 
-## Evaluate Models
-
-Evaluation metrics include:
-
-Sentiment Classifier → Accuracy, Precision, Recall, F1
-
-LSTM Forecaster → RMSE, MAE, Directional Accuracy
-
-├── All_Headlines_data/               # Raw & processed datasets
-│   ├── guardian_headlines.csv
-│   ├── reuters_headlines.csv
-│   ├── cnbc_headlines.csv
-│   ├── combined.csv
-│   ├── combined2.csv
-│   ├── SPX.csv
-│   ├── SPX_clean.csv
-│
-├── notebooks/                     # Development & experiments
-│   ├── Dataset Construction and Preparation.ipynb
-│   ├── MY_FYP_SEP2025.ipynb
-│
-├── models/                        # Trained models
-│   ├── lstm_model.h5
-│   ├── BERTModel_Final/           # Fine-tuned BERT
-│   └── RobertaModel_Final/        # Fine-tuned RoBERTa
-│
-│
-├── report/                        # Documentation
-│   ├── Final_Year_Project_Report.pdf
-│   ├── Appendices
-│ 
-│
-├── README.md
-
 
 ## Future Work
 
