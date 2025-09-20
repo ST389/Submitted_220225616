@@ -61,7 +61,7 @@ LSTM Forecaster → RMSE, MAE, Directional Accuracy
 ├── README.md
 
 
-Future Work
+## Future Work
 
 Human-annotated sentiment dataset for improved labeling quality.
 Real-time sentiment API + live forecasting pipeline.
